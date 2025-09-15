@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Quotes</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <h1>🌟 Random Quotes 🌟</h1>
+
+  <!-- Quote Container -->
+  <div id="quote-box">
+    <p id="quote">"Your daily inspiration will appear here!"</p>
+    <p id="author">— Ruchit</p>
+  </div>
+
+  <!-- Category Selector -->
+  <label for="category">Choose Category:</label>
+  <select id="category">
+    <option value="all">All</option>
+    <option value="motivation">Motivation</option>
+    <option value="success">Success</option>
+    <option value="life">Life</option>
+  </select>
+
+  <!-- Font Selector -->
+  <label for="fontSelect">Choose Font:</label>
+  <select id="fontSelect">
+    <option value="cursive">Cursive</option>
+    <option value="serif">Serif</option>
+    <option value="sans-serif">Sans Serif</option>
+    <option value="monospace">Monospace</option>
+  </select>
+
+  <!-- Font Size Slider -->
+  <label for="fontSizeSlider">Font Size:</label>
+  <input type="range" id="fontSizeSlider" min="16" max="40" value="25">
+
+  <!-- Buttons -->
+  <div class="button-group">
+    <button id="btn">🔄 Generate</button>
+    <button id="copyBtn">📋 Copy</button>
+    <button id="autoToggle">▶️ Auto Mode</button>
+    <button id="darkModeToggle">🌙 Dark Mode</button>
+  </div>
+
+  <!-- Owner Name -->
+  <div id="owner"></div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
