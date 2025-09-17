@@ -24,5 +24,5 @@ Built using HTML, CSS, and JavaScript with AI assistance. Lightweight, responsiv
 Experience the Quote Generator app live in your browser!  
 Click the link below to generate random quotes instantly:
 
-[🌟 Try the App Here](https://yourwebsite.com)
+[🌟 Try the App Here]( https://ruchit1806.github.io/Quote-Generator/)
 
